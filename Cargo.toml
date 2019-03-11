@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 edition = "2018"
 
+repository = "https://git.sr.ht/~wezm/cc26x0-hal"
+keywords = ["arm", "cortex-m", "ti", "simplelink"]
+categories = ["embedded"]
+
+
 [dependencies]
 cortex-m = "0.5.0"
 embedded-hal = "0.2.0"
