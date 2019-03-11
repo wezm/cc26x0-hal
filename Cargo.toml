@@ -1,0 +1,15 @@
+[package]
+name = "cc2650-hal"
+version = "0.1.0"
+authors = ["Wesley Moore <wes@wezm.net>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.5.0"
+embedded-hal = "0.2.0"
+#nb = "0.1.0"
+cc2650f128 = { path = "../../Source/dslite2svd/crates/cc2650f128" }
+
+[dependencies.cast]
+default-features = false
+version = "0.2.2"
